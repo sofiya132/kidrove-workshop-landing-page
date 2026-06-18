@@ -1,0 +1,51 @@
+.outcomes {
+  padding: 70px 8%;
+  background: linear-gradient(135deg, #f0f4ff 0%, #fdf6ff 100%);
+}
+
+.outcomes-inner {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.outcomes h2 {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 36px;
+  color: #1a1a2e;
+  text-align: center;
+}
+
+.outcomes ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.outcomes li {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.6;
+  background: #ffffff;
+  padding: 16px 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.outcome-check {
+  background: #3b5bdb;
+  color: white;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  flex-shrink: 0;
+  margin-top: 2px;
+}

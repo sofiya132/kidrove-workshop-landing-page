@@ -1,0 +1,51 @@
+.details {
+  padding: 70px 8%;
+  text-align: center;
+  background: #ffffff;
+}
+
+.details h2 {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 40px;
+  color: #1a1a2e;
+}
+
+.details-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.detail-card {
+  background: #f8f9ff;
+  border: 1px solid #e8ecff;
+  border-radius: 16px;
+  padding: 30px 24px;
+  width: 180px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.detail-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 30px rgba(59,91,219,0.1);
+}
+
+.detail-icon {
+  font-size: 2rem;
+}
+
+.detail-label {
+  font-size: 0.8rem;
+  color: #888;
+  margin: 10px 0 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.detail-value {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #1a1a2e;
+}
