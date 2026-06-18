@@ -1,16 +1,81 @@
-# React + Vite
+# Kidrove AI & Robotics Summer Workshop
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive workshop landing page built as part of the Kidrove Frontend + Backend Assignment.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Responsive UI for all screen sizes
+* Hero section with workshop overview
+* Workshop details section
+* Learning outcomes section
+* FAQ section
+* Registration form
+* Express.js API endpoint for enquiry submissions
+* Form validation and error handling
+* Clean component-based React architecture
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Frontend
 
-## Expanding the ESLint configuration
+* React.js
+* Tailwind CSS
+* JavaScript
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Backend
+
+* Node.js
+* Express.js
+
+## API Endpoint
+
+### POST /api/enquiry
+
+Accepts registration details:
+
+```json
+{
+  "name": "John Doe",
+  "email": "john@example.com",
+  "phone": "9876543210"
+}
+```
+
+Response:
+
+```json
+{
+  "success": true,
+  "message": "Enquiry submitted successfully"
+}
+```
+
+## Setup
+
+### Frontend
+
+```bash
+cd client
+npm install
+npm run dev
+```
+
+### Backend
+
+```bash
+cd server
+npm install
+npm start
+```
+
+## Future Improvements
+
+* MongoDB integration for storing enquiries
+* Email notifications
+* Admin dashboard
+* Workshop seat availability tracking
+* Authentication and analytics
+
+## Author
+
+Created for the Kidrove Workshop Landing Page Assignment.
